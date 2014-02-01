@@ -21,6 +21,7 @@
 		929D206A189C8D05006C8BAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929D204C189C8D05006C8BAD /* UIKit.framework */; };
 		929D2072189C8D05006C8BAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 929D2070189C8D05006C8BAD /* InfoPlist.strings */; };
 		929D2074189C8D05006C8BAD /* PinchiRotationSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 929D2073189C8D05006C8BAD /* PinchiRotationSampleTests.m */; };
+		929D207F189C94C7006C8BAD /* TransformableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 929D207E189C94C7006C8BAD /* TransformableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		929D206F189C8D05006C8BAD /* PinchiRotationSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PinchiRotationSampleTests-Info.plist"; sourceTree = "<group>"; };
 		929D2071189C8D05006C8BAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		929D2073189C8D05006C8BAD /* PinchiRotationSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinchiRotationSampleTests.m; sourceTree = "<group>"; };
+		929D207D189C94C7006C8BAD /* TransformableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformableView.h; sourceTree = "<group>"; };
+		929D207E189C94C7006C8BAD /* TransformableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				929D205A189C8D05006C8BAD /* Main.storyboard */,
 				929D205D189C8D05006C8BAD /* ViewController.h */,
 				929D205E189C8D05006C8BAD /* ViewController.m */,
+				929D207D189C94C7006C8BAD /* TransformableView.h */,
+				929D207E189C94C7006C8BAD /* TransformableView.m */,
 				929D2060189C8D05006C8BAD /* Images.xcassets */,
 				929D204F189C8D05006C8BAD /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				929D205F189C8D05006C8BAD /* ViewController.m in Sources */,
+				929D207F189C94C7006C8BAD /* TransformableView.m in Sources */,
 				929D2059189C8D05006C8BAD /* AppDelegate.m in Sources */,
 				929D2055189C8D05006C8BAD /* main.m in Sources */,
 			);
