@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		929D2049189C8D05006C8BAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929D2048189C8D05006C8BAD /* Foundation.framework */; };
+		929D204B189C8D05006C8BAD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929D204A189C8D05006C8BAD /* CoreGraphics.framework */; };
+		929D204D189C8D05006C8BAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929D204C189C8D05006C8BAD /* UIKit.framework */; };
+		929D2053189C8D05006C8BAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 929D2051189C8D05006C8BAD /* InfoPlist.strings */; };
+		929D2055189C8D05006C8BAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 929D2054189C8D05006C8BAD /* main.m */; };
+		929D2059189C8D05006C8BAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 929D2058189C8D05006C8BAD /* AppDelegate.m */; };
+		929D205C189C8D05006C8BAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929D205A189C8D05006C8BAD /* Main.storyboard */; };
+		929D205F189C8D05006C8BAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 929D205E189C8D05006C8BAD /* ViewController.m */; };
+		929D2061189C8D05006C8BAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929D2060189C8D05006C8BAD /* Images.xcassets */; };
+		929D2068189C8D05006C8BAD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929D2067189C8D05006C8BAD /* XCTest.framework */; };
+		929D2069189C8D05006C8BAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929D2048189C8D05006C8BAD /* Foundation.framework */; };
+		929D206A189C8D05006C8BAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929D204C189C8D05006C8BAD /* UIKit.framework */; };
+		929D2072189C8D05006C8BAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 929D2070189C8D05006C8BAD /* InfoPlist.strings */; };
+		929D2074189C8D05006C8BAD /* PinchiRotationSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 929D2073189C8D05006C8BAD /* PinchiRotationSampleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		929D206B189C8D05006C8BAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 929D203D189C8D05006C8BAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 929D2044189C8D05006C8BAD;
+			remoteInfo = PinchiRotationSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		929D2045189C8D05006C8BAD /* PinchiRotationSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinchiRotationSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		929D2048189C8D05006C8BAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		929D204A189C8D05006C8BAD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		929D204C189C8D05006C8BAD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		929D2050189C8D05006C8BAD /* PinchiRotationSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PinchiRotationSample-Info.plist"; sourceTree = "<group>"; };
+		929D2052189C8D05006C8BAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		929D2054189C8D05006C8BAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		929D2056189C8D05006C8BAD /* PinchiRotationSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PinchiRotationSample-Prefix.pch"; sourceTree = "<group>"; };
+		929D2057189C8D05006C8BAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		929D2058189C8D05006C8BAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		929D205B189C8D05006C8BAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		929D205D189C8D05006C8BAD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		929D205E189C8D05006C8BAD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		929D2060189C8D05006C8BAD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		929D2066189C8D05006C8BAD /* PinchiRotationSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinchiRotationSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		929D2067189C8D05006C8BAD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		929D206F189C8D05006C8BAD /* PinchiRotationSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PinchiRotationSampleTests-Info.plist"; sourceTree = "<group>"; };
+		929D2071189C8D05006C8BAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		929D2073189C8D05006C8BAD /* PinchiRotationSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinchiRotationSampleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		929D2042189C8D05006C8BAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929D204B189C8D05006C8BAD /* CoreGraphics.framework in Frameworks */,
+				929D204D189C8D05006C8BAD /* UIKit.framework in Frameworks */,
+				929D2049189C8D05006C8BAD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929D2063189C8D05006C8BAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929D2068189C8D05006C8BAD /* XCTest.framework in Frameworks */,
+				929D206A189C8D05006C8BAD /* UIKit.framework in Frameworks */,
+				929D2069189C8D05006C8BAD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		929D203C189C8D05006C8BAD = {
+			isa = PBXGroup;
+			children = (
+				929D204E189C8D05006C8BAD /* PinchiRotationSample */,
+				929D206D189C8D05006C8BAD /* PinchiRotationSampleTests */,
+				929D2047189C8D05006C8BAD /* Frameworks */,
+				929D2046189C8D05006C8BAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		929D2046189C8D05006C8BAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				929D2045189C8D05006C8BAD /* PinchiRotationSample.app */,
+				929D2066189C8D05006C8BAD /* PinchiRotationSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		929D2047189C8D05006C8BAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				929D2048189C8D05006C8BAD /* Foundation.framework */,
+				929D204A189C8D05006C8BAD /* CoreGraphics.framework */,
+				929D204C189C8D05006C8BAD /* UIKit.framework */,
+				929D2067189C8D05006C8BAD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		929D204E189C8D05006C8BAD /* PinchiRotationSample */ = {
+			isa = PBXGroup;
+			children = (
+				929D2057189C8D05006C8BAD /* AppDelegate.h */,
+				929D2058189C8D05006C8BAD /* AppDelegate.m */,
+				929D205A189C8D05006C8BAD /* Main.storyboard */,
+				929D205D189C8D05006C8BAD /* ViewController.h */,
+				929D205E189C8D05006C8BAD /* ViewController.m */,
+				929D2060189C8D05006C8BAD /* Images.xcassets */,
+				929D204F189C8D05006C8BAD /* Supporting Files */,
+			);
+			path = PinchiRotationSample;
+			sourceTree = "<group>";
+		};
+		929D204F189C8D05006C8BAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				929D2050189C8D05006C8BAD /* PinchiRotationSample-Info.plist */,
+				929D2051189C8D05006C8BAD /* InfoPlist.strings */,
+				929D2054189C8D05006C8BAD /* main.m */,
+				929D2056189C8D05006C8BAD /* PinchiRotationSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		929D206D189C8D05006C8BAD /* PinchiRotationSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				929D2073189C8D05006C8BAD /* PinchiRotationSampleTests.m */,
+				929D206E189C8D05006C8BAD /* Supporting Files */,
+			);
+			path = PinchiRotationSampleTests;
+			sourceTree = "<group>";
+		};
+		929D206E189C8D05006C8BAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				929D206F189C8D05006C8BAD /* PinchiRotationSampleTests-Info.plist */,
+				929D2070189C8D05006C8BAD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		929D2044189C8D05006C8BAD /* PinchiRotationSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 929D2077189C8D05006C8BAD /* Build configuration list for PBXNativeTarget "PinchiRotationSample" */;
+			buildPhases = (
+				929D2041189C8D05006C8BAD /* Sources */,
+				929D2042189C8D05006C8BAD /* Frameworks */,
+				929D2043189C8D05006C8BAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PinchiRotationSample;
+			productName = PinchiRotationSample;
+			productReference = 929D2045189C8D05006C8BAD /* PinchiRotationSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		929D2065189C8D05006C8BAD /* PinchiRotationSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 929D207A189C8D05006C8BAD /* Build configuration list for PBXNativeTarget "PinchiRotationSampleTests" */;
+			buildPhases = (
+				929D2062189C8D05006C8BAD /* Sources */,
+				929D2063189C8D05006C8BAD /* Frameworks */,
+				929D2064189C8D05006C8BAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				929D206C189C8D05006C8BAD /* PBXTargetDependency */,
+			);
+			name = PinchiRotationSampleTests;
+			productName = PinchiRotationSampleTests;
+			productReference = 929D2066189C8D05006C8BAD /* PinchiRotationSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		929D203D189C8D05006C8BAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Yukinaga Azuma";
+				TargetAttributes = {
+					929D2065189C8D05006C8BAD = {
+						TestTargetID = 929D2044189C8D05006C8BAD;
+					};
+				};
+			};
+			buildConfigurationList = 929D2040189C8D05006C8BAD /* Build configuration list for PBXProject "PinchiRotationSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 929D203C189C8D05006C8BAD;
+			productRefGroup = 929D2046189C8D05006C8BAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				929D2044189C8D05006C8BAD /* PinchiRotationSample */,
+				929D2065189C8D05006C8BAD /* PinchiRotationSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		929D2043189C8D05006C8BAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929D2061189C8D05006C8BAD /* Images.xcassets in Resources */,
+				929D2053189C8D05006C8BAD /* InfoPlist.strings in Resources */,
+				929D205C189C8D05006C8BAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929D2064189C8D05006C8BAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929D2072189C8D05006C8BAD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		929D2041189C8D05006C8BAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929D205F189C8D05006C8BAD /* ViewController.m in Sources */,
+				929D2059189C8D05006C8BAD /* AppDelegate.m in Sources */,
+				929D2055189C8D05006C8BAD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929D2062189C8D05006C8BAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929D2074189C8D05006C8BAD /* PinchiRotationSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		929D206C189C8D05006C8BAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 929D2044189C8D05006C8BAD /* PinchiRotationSample */;
+			targetProxy = 929D206B189C8D05006C8BAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		929D2051189C8D05006C8BAD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				929D2052189C8D05006C8BAD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		929D205A189C8D05006C8BAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				929D205B189C8D05006C8BAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		929D2070189C8D05006C8BAD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				929D2071189C8D05006C8BAD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		929D2075189C8D05006C8BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		929D2076189C8D05006C8BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		929D2078189C8D05006C8BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PinchiRotationSample/PinchiRotationSample-Prefix.pch";
+				INFOPLIST_FILE = "PinchiRotationSample/PinchiRotationSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		929D2079189C8D05006C8BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PinchiRotationSample/PinchiRotationSample-Prefix.pch";
+				INFOPLIST_FILE = "PinchiRotationSample/PinchiRotationSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		929D207B189C8D05006C8BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PinchiRotationSample.app/PinchiRotationSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PinchiRotationSample/PinchiRotationSample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PinchiRotationSampleTests/PinchiRotationSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		929D207C189C8D05006C8BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PinchiRotationSample.app/PinchiRotationSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PinchiRotationSample/PinchiRotationSample-Prefix.pch";
+				INFOPLIST_FILE = "PinchiRotationSampleTests/PinchiRotationSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		929D2040189C8D05006C8BAD /* Build configuration list for PBXProject "PinchiRotationSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929D2075189C8D05006C8BAD /* Debug */,
+				929D2076189C8D05006C8BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		929D2077189C8D05006C8BAD /* Build configuration list for PBXNativeTarget "PinchiRotationSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929D2078189C8D05006C8BAD /* Debug */,
+				929D2079189C8D05006C8BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		929D207A189C8D05006C8BAD /* Build configuration list for PBXNativeTarget "PinchiRotationSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929D207B189C8D05006C8BAD /* Debug */,
+				929D207C189C8D05006C8BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 929D203D189C8D05006C8BAD /* Project object */;
+}
